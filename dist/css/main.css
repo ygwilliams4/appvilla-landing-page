@@ -202,6 +202,32 @@ header .heroImg img {
   font-size: 35px;
 }
 
+#pricing {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  background: #e6e6e691;
+  text-align: center;
+}
+
+#pricing h5 {
+  margin: 0.5rem 0;
+  color: #5d5dff;
+  font-weight: bold;
+}
+
+#pricing h2 {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+#pricing p {
+  color: grey;
+  margin: 1rem 0 2rem 0;
+}
+
 .bottomNav {
   position: fixed;
   background-color: #5d5dff;

@@ -158,6 +158,29 @@ header{
         }
     }
 }
+
+#pricing{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    background: $default-color3;
+    text-align: center;
+
+    h5{
+        margin: 0.5rem 0;
+        color: $primary-color;
+        font-weight: bold;
+    }
+    h2{
+        font-weight: bold;
+        margin: 0.5rem 0;
+    }
+
+    p{
+        color: grey;
+        margin: 1rem 0 2rem 0;
+    }
+}
 .bottomNav{
     position: fixed;
     background-color: $primary-color;
